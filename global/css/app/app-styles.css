@@ -1,0 +1,183 @@
+.navbar {
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.profile-picture {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 170px;
+    height: 200px;
+    z-index: 10;
+}
+
+.profile-picture > img {
+    width: 150px;
+    border-radius: 110px;
+    right: 0;
+    top: 0;
+    margin-left: 11px;
+    margin-top: 9px;
+    z-index: 10;
+}
+
+.circle {
+    background: #212529;
+    min-width: 170px;
+    min-height: 170px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.name {
+    font-size: 25px;
+}
+
+.quote-bg-img > img {
+    height: 360px;
+    min-width: -webkit-fill-available;
+    object-fit: none; /* Do not scale the image */
+    object-position: bottom; /* Center the image within the element */
+}
+
+.quote {
+    position: absolute;
+    width: 100%;
+    top: 170px;
+    padding: 20px;
+    text-align: center;
+}
+
+.blockquote > p {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.blockquote-footer {
+    color: white;
+    position: relative;
+    float: right;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.resume-download > span {
+    font-style: italic;
+}
+
+.resume-download > .btn {
+    margin-top: 20px;
+}
+
+.resume-download {
+    border-left: gray 1px dashed;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.info-container {
+    padding: 10px;
+}
+
+.contact-icon > img {
+    height: 30px;
+    align-self: center;
+}
+
+.contact-icon > span {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.contact-icon {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-headers {
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.contact-content {
+    font-size: 18px;
+    font-style: italic;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-content > img {
+    height: 30px;
+}
+
+.contact-content > div {
+    margin-left: 10px;
+}
+
+.contact-profiles {
+    padding-top: 10px;
+}
+
+.info-links {
+    font-style: italic;
+}
+
+.publications-btn {
+    margin-right: 20px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.skills-btn {
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(120, 0, 150);
+    color: white;
+    border: rgb(120, 0, 150);
+    margin-right: 10px;
+}
+
+.skills-btn:hover {
+    color: white;
+    background-color: rgb(87, 0, 109);
+}
+
+#universal-interpreter-link {
+    cursor: pointer;
+}
+
+.hobbies-image {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.accordion-header > button > img {
+    height: 30px;
+    align-self: center;
+    align-items: center;
+    margin-left: 10px;
+    float: right;
+}
+
+#unisys-logo {
+    height: 22px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+}
+
+.address-content {
+    cursor: pointer;
+}
